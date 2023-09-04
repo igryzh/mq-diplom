@@ -455,17 +455,17 @@ a {
 }
 
 .dribbble {
-  background-image: url("/svg/001-dribbble.svg");
+  background-image: url("../svg/001-dribbble.svg");
   background-color: transparent;
 }
 
 .pinterest {
-  background-image: url("/svg/002-pinterest.svg");
+  background-image: url("../svg/002-pinterest.svg");
   background-color: transparent;
 }
 
 .tumblr {
-  background-image: url("/svg/003-tumblr.svg");
+  background-image: url("../svg/003-tumblr.svg");
   background-color: transparent;
 }
 
@@ -549,16 +549,16 @@ a {
 }
 
 .trends-item:nth-child(1) {
-  background-image: url("/images/trend1.jpg");
+  background-image: url("../images/trend1.jpg");
 }
 .trends-item:nth-child(2) {
-  background-image: url("/images/trend2.jpg");
+  background-image: url("../images/trend2.jpg");
 }
 .trends-item:nth-child(3) {
-  background-image: url("/images/trend3.jpg");
+  background-image: url("../images/trend3.jpg");
 }
 .trends-item:nth-child(4) {
-  background-image: url("/images/trend4.jpg");
+  background-image: url("../images/trend4.jpg");
 }
 /*products*/
 .products {
