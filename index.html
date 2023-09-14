@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 
 <head>
   <meta charset="UTF-8">
@@ -13,7 +13,7 @@
     <div class="welcome-container">
       <div class="logo-menu">
         <div class="header-logo">
-          <a href="#0"><img class="logo" src="svg/noemi-logo.svg" alt="logo"></a>
+          <a href="#0" class="header-logo-link"><img class="logo" src="svg/noemi-logo.svg" alt="logo"></a>
         </div>
         <nav class="menu">
           <button class="menu-button" type="button">Меню</button>
@@ -39,7 +39,7 @@
       <div class="trends-item">
         <div class="trends-info">
           <ul class="main-list">
-            <li class="main-list-item"><a href="#0" class="main-item">travel</a></li>
+            <li class="main-list-item"><a href="#0" class="main-item">lifestyle</a></li>
             <li class="main-list-item"><a href="#0" class="main-item">interior</a></li>
           </ul>
           <h2 class="trends-info-header">Сейчас в тренде: сад на подоконнике</h2>
@@ -167,40 +167,6 @@
           <p class="main-text">Подушки для дивана целесообразнее заказать в съемных чехлах на молнии, если потребуется чистка подушек, проще снять чехлы, чем везти подушку в химчистку.</p>
         </div>
       </article>
-      <article class="main-posts">
-        <div>
-          <img class="main-posts-photo" src="images/last-post6.jpg" alt="люди и горы">
-        </div>
-        <div class="main-content">
-          <ul class="main-list">
-            <li class="main-list-item"><a href="#0" class="main-item">travel</a></li>
-            <li class="main-list-item"><a href="#0" class="main-item">lifestyle</a></li>
-          </ul>
-          <h2 class="main-header"><a class="main-header-item" href="#0">Как первый раз отправиться в горы?</a></h2>
-          <div class="date-author">
-            <time class="date" datetime="2019-06-10">10 июня 2019</time>
-            <span class="author">Неизвестный автор</span>
-          </div>
-          <p class="main-text">Для начала нужно определиться, в каком формате пройдёт ваше путешествие. Это зависит от многих факторов, не только от ваших желаний и интересов.</p>
-        </div>
-      </article>
-      <article class="main-posts">
-        <div>
-          <img class="main-posts-photo" src="images/last-post4.jpg" alt="стол с едой">
-        </div>
-        <div class="main-content">
-          <ul class="main-list">
-            <li class="main-list-item"><a href="#0" class="main-item">lifestyle</a></li>
-            <li class="main-list-item"><a href="#0" class="main-item">food</a></li>
-          </ul>
-          <h2 class="main-header"><a class="main-header-item" href="#0">Наукоёмкий подход к кулинарии</a></h2>
-          <div class="date-author">
-            <time class="date" datetime="2019-06-10">10 июня 2019</time>
-            <span class="author">Неизвестный автор</span>
-          </div>
-          <p class="main-text">Узнаем основы проектирования новых пищевых и около-пищевых опытов, вскроем физику, химию и микробиологию еды.</p>
-        </div>
-      </article>
     </main>
 
     <aside class="aside">
@@ -297,7 +263,7 @@
     </aside>
   </div>
   <section class="products">
-    <h2 class="trends-header">Наши изделия</h2>
+    <h2 class="products-header">Наши изделия</h2>
     <div class="product-cards">
       <div class="products-item">
         <div class="product-photo-container">
@@ -405,8 +371,8 @@
           <label class="popup-fieldset-label" for="no">Нет</label>
         </fieldset>
         <label class="popup-label-textarea" for="textarea">Расскажите, какой контент вы хотели бы видеть на нашем сайте?</label>
-        <textarea id="textarea" rows="6" name="textarea" required placeholder="Может, больше рецептов?"></textarea>
-        <button class="popup-button" type="button">отправить</button>
+        <textarea class="popup-textarea" id="textarea" rows="6" name="textarea" required placeholder="Может, больше рецептов?"></textarea>
+        <button class="popup-button" type="submit">отправить</button>
       </form>
       <button class="popup-close" type="button">Закрыть окно</button>
     </div>
